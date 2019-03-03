@@ -27,6 +27,12 @@ li {
   line-height: 25px;
 }
 
+main,
+.footer_content_container,
+.logo_bar {
+  max-width: 930px;
+}
+
 body {
   font-family: 'Roboto', sans-serif;
   color: #797166;
@@ -180,4 +186,71 @@ ul {
   width: 25%;
   border-radius: 10%;
   align-self: center;
+}
+
+/********** Footer *********/
+
+footer {
+  background-color: #51525a;
+}
+
+.footer_content_container {
+  width: 90%;
+  padding: 25px 0;
+}
+
+.footer_content_container,
+.footer_content_container img {
+  margin: auto;
+}
+
+.footer_content_container p {
+  line-height: normal;
+}
+
+.footer_content_container p:nth-child(2),
+.footer_content_container p:nth-child(1) {
+  margin-bottom: 10px;
+}
+
+.footer_content_container img {
+  display: block;
+  width: 50%;
+}
+
+.footer_content_container p:nth-child(1) {
+  color: #ccccd1;
+  font-size: .9rem;
+}
+
+.footer_content_container p:nth-child(2) {
+  color: #99999e;
+  font-size: .7rem;
+}
+
+
+/********* Media Queries **********/
+
+@media only screen and (max-width: 340px)   {
+
+  .button {
+    width: 100%;
+  }
+
+}
+
+@media only screen and (min-width: 660px)   {
+
+  .intro_flex_container {
+    display: flex;
+  }
+
+  .intro_text_container {
+     margin-right: 15px;
+  }
+
+  .card_container {
+      flex: 2 0 240px;
+  }
+
 }
