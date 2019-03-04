@@ -241,6 +241,14 @@ footer {
 
 @media only screen and (min-width: 660px)   {
 
+  .button {
+    width: 100%;
+  }
+
+  .button a {
+    font-size: 1rem;
+  }
+
   .intro_flex_container {
     display: flex;
   }
@@ -266,11 +274,38 @@ footer {
 
 }
 
+@media only screen and (min-width: 700px) {
+
+
+  .footer_flex_container {
+    display: flex;
+    justify-content: space-between;
+  }
+
+  .footer_flex_container p {
+    flex: 0 0 45%;
+  }
+}
+
 @media only screen and (min-width: 800px) {
 
   .speaker_card,
   .speaker_card_container .card {
     flex: 0 0 30%;
+  }
+
+  .speaker_card_button a {
+    font-size: .8rem;
+    line-height: 10px;
+  }
+
+}
+
+@media only screen and (min-width: 860px) {
+
+  .speaker_card_button a {
+    font-size: 1rem;
+    line-height: 0;
   }
 
 }
