@@ -27,10 +27,11 @@ li {
   line-height: 25px;
 }
 
-main,
+section,
 .footer_content_container,
 .logo_bar {
   max-width: 930px;
+  margin: auto;
 }
 
 body {
@@ -39,7 +40,8 @@ body {
   background-color: #f5f3f0;
 }
 
-main {
+main,
+section {
   width: 90%;
   margin: auto;
   padding-bottom: 35px;
